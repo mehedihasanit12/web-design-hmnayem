@@ -60,7 +60,8 @@ nav{
     display: flex;
     margin-left: 2rem;
 }
-.main-menu a{
+.main-menu a,
+.right-menu a{
     display: inline-block;
     margin-right: 1rem;
     text-decoration: none;
@@ -83,13 +84,16 @@ nav{
     margin-left: auto;
 }
 
-.right-menu a{
-    display: inline-block;
-    margin-left: 1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.right-menu button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
+.right-menu button > span{
+    font-size: 1.5rem;
+}
 /* right menu section end */
 
