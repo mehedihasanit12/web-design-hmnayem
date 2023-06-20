@@ -59,6 +59,7 @@ nav{
 .main-menu{
     display: flex;
     margin-left: 2rem;
+    padding: 1rem 0;
 }
 .main-menu a,
 .right-menu a{
@@ -167,7 +168,7 @@ nav{
 
 .mega-menu-container{
     position: absolute;
-    top: 42px;
+    top: 17px;
     width: 700px;
     height: 300px;
     background-color: #ddd;
